@@ -7,7 +7,7 @@
 %define	pnam	Data-Inheritable
 Summary:	Class::Data::Inheritable - inheritable, overridable class data
 Summary(pl):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa danych
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Class-Data-Inheritable
 Version:	0.02
 Release:	5
 License:	Artistic
