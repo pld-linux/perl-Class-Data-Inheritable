@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Data-Inheritable
+%define		pdir	Class
+%define		pnam	Data-Inheritable
 Summary:	Class::Data::Inheritable - inheritable, overridable class data
 Summary(pl):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa danych
 Name:		perl-Class-Data-Inheritable
