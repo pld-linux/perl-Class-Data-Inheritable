@@ -9,8 +9,8 @@ Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,8 +20,11 @@ data.  That is, if you want to store something about your class as
 a whole (instead of about a single object).  This data is then
 inherited by your subclasses and can be overriden.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Class::Data::Inheritable s³u¿y do tworzenia dodatkowych danych
+klasy (accessors/mutators), czyli do przechowywania czego¶ o klasie
+jako ca³o¶ci (zamiast o pojedynczym obiekcie). Te dane s± potem
+dziedziczone przez podklasy i mog± byæ przykryte innymi.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -35,7 +38,6 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
