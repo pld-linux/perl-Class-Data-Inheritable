@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Class::Data::Inheritable
 Summary(it):	Modulo di Perl Class::Data::Inheritable
 Summary(ja):	Class::Data::Inheritable Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Class::Data::Inheritable ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Class::Data::Inheritable
+Summary(nb):	Perlmodul Class::Data::Inheritable
 Summary(pl):	Modu³ Perla Class::Data::Inheritable
 Summary(pt):	Módulo de Perl Class::Data::Inheritable
 Summary(pt_BR):	Módulo Perl Class::Data::Inheritable
