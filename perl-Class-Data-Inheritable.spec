@@ -47,7 +47,7 @@ dziedziczone przez podklasy i mog± byæ przykryte innymi.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 
