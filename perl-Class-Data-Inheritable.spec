@@ -20,12 +20,12 @@ Summary(uk):	Модуль для Perl Class::Data::Inheritable
 Summary(zh_CN):	Class::Data::Inheritable Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.005
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
