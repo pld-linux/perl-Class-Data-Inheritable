@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	Data-Inheritable
-Summary:	Class::Data::Inheritable Perl module
-Summary(cs):	Modul Class::Data::Inheritable pro Perl
-Summary(da):	Perlmodul Class::Data::Inheritable
-Summary(de):	Class::Data::Inheritable Perl Modul
-Summary(es):	Módulo de Perl Class::Data::Inheritable
-Summary(fr):	Module Perl Class::Data::Inheritable
-Summary(it):	Modulo di Perl Class::Data::Inheritable
-Summary(ja):	Class::Data::Inheritable Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Class::Data::Inheritable ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Class::Data::Inheritable
-Summary(pl):	Modu³ Perla Class::Data::Inheritable
-Summary(pt):	Módulo de Perl Class::Data::Inheritable
-Summary(pt_BR):	Módulo Perl Class::Data::Inheritable
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Class::Data::Inheritable
-Summary(sv):	Class::Data::Inheritable Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Class::Data::Inheritable
-Summary(zh_CN):	Class::Data::Inheritable Perl Ä£¿é
+Summary:	Class::Data::Inheritable - inheritable, overridable class data
+Summary(pl):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa danych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
 Release:	3
