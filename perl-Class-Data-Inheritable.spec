@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Data-Inheritable
-Summary:	Class::Data::Inheritable perl module
-Summary(pl):	Modu³ perla Class::Data::Inheritable
+%define		pdir	Class
+%define		pnam	Data-Inheritable
+Summary:	Class::Data::Inheritable Perl module
+Summary(cs):	Modul Class::Data::Inheritable pro Perl
+Summary(da):	Perlmodul Class::Data::Inheritable
+Summary(de):	Class::Data::Inheritable Perl Modul
+Summary(es):	Módulo de Perl Class::Data::Inheritable
+Summary(fr):	Module Perl Class::Data::Inheritable
+Summary(it):	Modulo di Perl Class::Data::Inheritable
+Summary(ja):	Class::Data::Inheritable Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Class::Data::Inheritable ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Class::Data::Inheritable
+Summary(pl):	Modu³ Perla Class::Data::Inheritable
+Summary(pt):	Módulo de Perl Class::Data::Inheritable
+Summary(pt_BR):	Módulo Perl Class::Data::Inheritable
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Class::Data::Inheritable
+Summary(sv):	Class::Data::Inheritable Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Class::Data::Inheritable
+Summary(zh_CN):	Class::Data::Inheritable Perl Ä£¿é
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -44,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/Class/Data/Inheritable.pm
+%{perl_sitelib}/Class/Data/
 %{_mandir}/man3/*
