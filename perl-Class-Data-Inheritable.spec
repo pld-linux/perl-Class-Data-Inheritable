@@ -9,7 +9,7 @@ Summary:	Class::Data::Inheritable - inheritable, overridable class data
 Summary(pl):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa danych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	4
+Release:	5
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
