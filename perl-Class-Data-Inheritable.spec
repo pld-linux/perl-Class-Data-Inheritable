@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/Class/Data/
+%{perl_vendorlib}/Class/Data/*
 %{_mandir}/man3/*
