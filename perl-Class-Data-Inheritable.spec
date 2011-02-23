@@ -10,7 +10,8 @@ Summary(pl.UTF-8):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa d
 Name:		perl-Class-Data-Inheritable
 Version:	0.08
 Release:	1
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fc0fe65926eb8fb932743559feb54eb9
@@ -53,5 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/Class/Data/*
-%{_mandir}/man3/*
+%{perl_vendorlib}/Class/Data/Inheritable.pm
+%{_mandir}/man3/Class::Data::Inheritable.3pm*
