@@ -8,7 +8,7 @@ Summary:	Class::Data::Inheritable - inheritable, overridable class data
 Summary(pl.UTF-8):	Class::Data::Inheritable - dziedziczona, przykrywalna klasa danych
 Name:		perl-Class-Data-Inheritable
 Version:	0.10
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
